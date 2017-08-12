@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		body{
+			margin: 0;
+			padding: 0;
+		    background-color:rgb(242,242,242);}
+	/*固定的头*/
+		.head_wrap{
+			background-color: rgba(0,0,0,0.7);
+			height: 75px;
+			width: 100%;
+			/*opacity: 0.6;*/
+			text-align: center;
+			padding: 10px;
+			position:fixed;
+			box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+			}
+		.head img{
+			width: 136px;
+			height: 44px;}
+		.nav a{
+			color: #898989;
+			text-decoration: none;
+			/*display: inline-block;*/
+			margin: 0 5% 0 5%;}
+		
+		.device{
+			height: 569px;
+			width: 100%;}
+		.device img{
+			display:block;
+			width: 1011px;
+			height: 569px;
+			margin: 0 auto ;}
+		.parner{text-align: center;}
+		.parner span{
+			display: inline-block;}
+		.parner img{
+			height: 26px;
+			width: 38px;}
+		.swiper_p {
+			width: 640px;
+		    margin-top: 50px;
+		    text-indent: 2em;
+		    padding-top: 2%;
+		    padding-bottom: 2%;
+		    border-top: 1px #e8e8e8 solid;
+		    border-bottom: 1px #e8e8e8 solid;
+		    font-size: 0.9em;
+		    line-height: 1.5em;
+		    color: #666666;
+		    font-family: STKaiti,"微软雅黑";
+			text-align: center;
+			margin-left: auto;
+   			margin-right: auto;}
+   		.content img{
+   			height: 174px;
+   			width: 313px;
+   			display: block;
+   			margin: 0 auto;
+   			/*float: left;*/}
+   		.content div{
+   			height: 209px;
+   			width: 313px;
+   			float: left;
+   			background-color: #fff;
+   			margin-right: 36px;
+   			}
+   		.content span{
+   			width: 1048px;
+   			height: 210px;
+   			display: block;
+   			margin: 40px auto;}
+   		.content .font{
+			display:block;
+			text-align: center;
+			text-decoration: none;
+			margin-top: 6px;}
+		.footer{
+			width: 100%;
+			height: 300px;
+			background-color:#e0e0e0;
+			margin-top: 40px; 
+			font-size: 0.75em;
+			padding: 5px;}
+		.link{
+			float: right;
+			margin: 30px;}
+		.link img{
+			width: 30px;
+			height: 25px;
+			/*float: right;*/}
+		.link a{text-decoration: none;}
+		.content-logo img{
+			width: 143px;
+			height: 55px;}
+		.footer-left{
+			display: inline-block;
+			/*height: 260px;*/
+			width: 50%;}
+		.footer-right{
+			display: inline-block;
+			height: 260px;
+			width: 50%;
+			float: right;
+			border-left: 1px solid rgb(188,188,188);
+			padding-left: 15px;
+			margin-top: -85px;}
+		.small{
+			box-shadow: 2px 2px 2px #e3e3e3;  
+			overflow: hidden;
+			border-radius: 8px;}
+		span .zimu{
+			height: 174px;
+			width: 313px;
+		    background: rgba(0,0,0,0.4);
+			display: inline-block;
+			position:absolute;
+			margin-top: -200px;
+			display: none;
+			font-size: 30px;
+			text-align: center;
+			line-height: 174px;
+			color: white;}
+		.small:hover .zimu{display: block;}
+	</style>
+</head>
+<body>
+<!-- 固定的头 -->
+		<div class="head_wrap">
+			<div class="head">
+				<a href="#"><img src="img/title2.png" alt class="logo"></a>
+			</div>
+			
+			<div class="nav">
+				<a href="/" class="firstNav active">HOME</a>
+				<a href="#work">WORK</a>
+				<a href="#contact">CONTACT</a>
+				<a href="/joinus.html">JOIN US</a>
+			</div>	
+		</div>
+<!-- 第二部分 -->
+		<div class="wrap">
+
+			<!-- 大图 -->
+			<div class="device">
+				<a href="#"><img src="img/58fc78b8ba096.jpg"></a>
+			</div>
+
+			<!-- 图下文字	 -->
+			<p class="swiper_p">"
+					Infini Studio （映纷创意）是一家独立创意机构，专注于动画形式的创意表达。我们使用设计、绘画、动画、特效及更多形式的创新探索，对品牌与内容进行创意呈现。
+			</p>
+			<!-- 小图标 -->
+			<div class="parner">
+				<span><a href="#"><img src="img/1.jpg"></span></a>
+				<span><a href="#"><img src="img/2.jpg"></span></a>
+				<span><a href="#"><img src="img/3.jpg" ></span></a>
+				<span><a href="#"><img src="img/4.jpg" ></span></a>
+				<span><a href="#"><img src="img/5.jpg" ></span></a>
+				<span><a href="#"><img src="img/6.jpg" ></span></a>
+				<span><a href="#"><img src="img/7.jpg" ></span></a>
+				<span><a href="#"><img src="img/8.jpg" ></span></a>
+			</div>
+        <!-- 大内容 -->
+			<div class="content">
+			<!-- 第一行 -->
+			<span>
+				<div class="small">
+					<a href="#"><img src="img/594b69293281a.jpg"></a>
+					<a href="#" class="font">小米max2创意海报</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>	
+				<div class="small">
+					<a href="#"><img src="img/590aca83b9c1e.jpg"></a>
+					<a href="#" class="font">聚星台会员通</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58f22ebf4ecc7.jpg"></a>
+					<a href="#" class="font">清新绿实验室大揭秘H5</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+			</span>
+			<!-- 第二行 -->
+			<span>
+				<div class="small">
+					<a href="#"><img src="img/58f0a4b73384a.jpg"></a>
+					<a href="#" class="font">小米max2创意海报</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img//58f09de5e6b67.jpg"></a>
+					<a href="#" class="font">聚星台会员通</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be6a566c65e.jpg"></a>
+					<a href="#" class="font">清新绿实验室大揭秘H5</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+			</span>
+			<!-- 第三行 -->
+			<span>
+				<div class="small">
+					<a href="#"><img src="img/58be69ba43c21.jpg"></a>
+					<a href="#" class="font">小米max2创意海报</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be68c7e44ff.jpg"></a>
+					<a href="#" class="font">聚星台会员通</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be681777a97.jpg"></a>
+					<a href="#" class="font">清新绿实验室大揭秘H5</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+			</span>
+			<!-- 第四行 -->
+			<span>
+				<div class="small">
+					<a href="#"><img src="img/58bf7e8d5e7d0.jpg"></a>
+					<a href="#" class="font">小米max2创意海报</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be6676a7b8f.jpg"></a>
+					<a href="#" class="font">聚星台会员通</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be52069aa59.jpg"></a>
+					<a href="#" class="font">清新绿实验室大揭秘H5</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+			</span>
+			<!-- 第五行 -->
+			<span>
+				<div class="small">
+					<a href="#"><img src="img/58be63fe8722e.jpg"></a>
+					<a href="#" class="font">小米max2创意海报</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be4fa2c27ad.jpg"></a>
+					<a href="#" class="font">聚星台会员通</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58c77e2633f5f.jpg"></a>
+					<a href="#" class="font">清新绿实验室大揭秘H5</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+			</span>
+			<!-- 第六行 -->
+			<span>
+				<div class="small">
+					<a href="#"><img src="img/58be63fe8722e.jpg"></a>
+					<a href="#" class="font">小米max2创意海报</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58be4fa2c27ad.jpg"></a>
+					<a href="#" class="font">聚星台会员通</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+				<div class="small">
+					<a href="#"><img src="img/58c77e2633f5f.jpg"></a>
+					<a href="#" class="font">清新绿实验室大揭秘H5</a>
+					<a class="zimu">
+						小米max2创意海报
+					</a>
+				</div>
+			</span>
+		</div>
+
+		<!-- 底部 -->
+		<div class="footer">
+		<!-- 底部左边 -->
+			<div class="footer-left">
+			<div class="link">
+				<a href="http://weibo.com/InfiniVision/" class="link1">
+				<img src="img/contact1.jpg" alt>
+				</a>
+				<a href="http://infini.zcool.com.cn/" class="link2">
+				<img src="img/contact2.jpg" alt>
+				</a>
+			<a href="http://i.youku.com/u/UMTMyODY0NzU2" class="link3">
+			<img src="img/contact3.jpg" alt>
+			</a>
+			</div>
+			</div>
+<!-- 底部右 -->
+			<div class="footer-right">
+				<div class="footer-li">
+					<div class="content-logo">
+						<img src="img/footer_logo.jpg" alt>
+					</div>
+					<p>Infini Studio | 映纷创意</p>
+					<p>北京市朝阳区常营未来时大厦706</p>
+					<p>TEL : 010-85394331</p>
+					<p>QQ : 7585917</p>
+					<p>Email : infinistudio@foxmail.com</p>
+					<p>weibo : @InfiniStudio</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>
